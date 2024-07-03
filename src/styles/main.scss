@@ -1,0 +1,121 @@
+body{
+    .main-div-app{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    background-color: rgb(209, 243, 243);
+    .add-movie-form{
+        background-color: pink;
+        padding: 50px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 25%;
+        align-items: center;
+
+        input{
+            width: 100%;
+            height: 25px;
+            border-radius: 4px;
+            padding: 5px;
+            font-size: 16px;
+        }
+        button{
+            // height: 30px;
+            font-size: 20px;
+            font-weight: 600;
+            width: fit-content;
+            padding: 10px 30px;
+            cursor: pointer;
+            :hover{
+                background-color: gray;
+            }
+        }
+    }
+
+    .edit-movie-form{
+        // background-color: pink;
+        // padding: 50px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+
+        input{
+            width: 100%;
+            height: 25px;
+            border-radius: 4px;
+            padding: 5px;
+            font-size: 16px;
+        }
+        button{
+            width: 100%;
+            font-size: 20px;
+            font-weight: 600;
+            padding: 10px 30px;
+            cursor: pointer;
+            :hover{
+                background-color: gray;
+            }
+        }
+    }
+
+    .movie-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 40px;
+
+        .movie-item{
+            padding: 20px;
+            background-color:rgb(139, 196, 176);
+            border-radius: 8px;
+            color: white;
+            font-size: 20px;
+            width: auto;
+
+            .action-buttons{
+                width: 100%;
+                margin: 10px 0px;
+                display: flex;
+                justify-content: space-around;
+                gap:20px;
+                .edit-btn{
+                    font-size: 20px;
+                    width: 100%;
+                    padding: 5px 10px;
+                    border-radius: 8px;
+                    background-color: yellow;
+                    color: black;
+                    font-weight: 600;
+                    cursor: pointer;
+                }
+                .delete-btn{
+                    font-size: 20px;
+                    width: 100%;
+                    padding: 5px 10px;
+                    border-radius: 8px;
+                    background-color: red;
+                    color: white;
+                    font-weight: 600;
+                    cursor: pointer;
+                }
+            }
+            .review{
+                margin-top: 10px;
+                .label{
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                }
+            }
+            .mark-watch{
+                margin-top: 20px;
+            }
+        }
+    }
+}

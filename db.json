@@ -1,0 +1,24 @@
+{
+  "movies": [
+    {
+      "id": "b418",
+      "title": "Dune",
+      "description": "This was very good ",
+      "releaseYear": "2023",
+      "genre": "Fatasi",
+      "watched": false,
+      "rating": 0,
+      "review": ""
+    },
+    {
+      "id": "93ef",
+      "title": "Dune 2",
+      "description": "Nice Movie",
+      "releaseYear": "2023",
+      "genre": "Sci- Fi",
+      "watched": true,
+      "rating": 3,
+      "review": "GFKFEOFER"
+    }
+  ]
+}
